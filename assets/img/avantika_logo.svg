@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100" width="480" height="100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b3b60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a5276;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Emblem Circle -->
+  <g transform="translate(10, 10)">
+    <circle cx="40" cy="40" r="38" fill="url(#grad1)" stroke="url(#gold)" stroke-width="3"/>
+    
+    <!-- Open Book Icon -->
+    <path d="M 22 50 Q 32 44 40 47 Q 48 44 58 50 L 58 32 Q 48 26 40 29 Q 32 26 22 32 Z" fill="#ffffff"/>
+    <path d="M 40 29 L 40 47" stroke="#0b3b60" stroke-width="2"/>
+    
+    <!-- Star of knowledge -->
+    <polygon points="40,16 42,21 47,21 43,24 45,29 40,26 35,29 37,24 33,21 38,21" fill="url(#gold)"/>
+  </g>
+  
+  <!-- Typography -->
+  <g transform="translate(105, 38)">
+    <text x="0" y="0" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="30" font-weight="800" fill="#0b3b60" letter-spacing="1.5">AVANTIKA</text>
+    <text x="175" y="0" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="30" font-weight="700" fill="#f59e0b" letter-spacing="1.5">PORTAL</text>
+  </g>
+  
+  <g transform="translate(106, 62)">
+    <text x="0" y="0" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="13" font-weight="600" fill="#475569" letter-spacing="2">अवंतिका पोर्टल • DIGITAL LEARNING</text>
+  </g>
+  
+  <g transform="translate(106, 80)">
+    <text x="0" y="0" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="11" font-weight="500" fill="#64748b">Empowering Education &amp; Future Skills</text>
+  </g>
+</svg>

@@ -1,0 +1,151 @@
+/* Student Portal & Payment System Styling */
+.student-login-btn {
+  background: linear-gradient(135deg, #0b3b60 0%, #1a5276 100%);
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 8px rgba(11, 59, 96, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.student-login-btn:hover {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+.user-badge {
+  background: #e6fffa;
+  border: 1px solid #38b2ac;
+  color: #234e52;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Modal Custom Styling */
+.modal-portal .modal-content {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+.modal-portal .modal-header {
+  background: linear-gradient(135deg, #0b3b60 0%, #1a5276 100%);
+  color: #fff;
+  padding: 18px 24px;
+  border-bottom: none;
+}
+
+.modal-portal .modal-header .btn-close {
+  filter: brightness(0) invert(1);
+}
+
+/* Course Cards in Dashboard */
+.portal-course-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.portal-course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 51, 102, 0.12);
+  border-color: #f59e0b;
+}
+
+.portal-course-header {
+  padding: 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.portal-course-body {
+  padding: 18px;
+  flex-grow: 1;
+}
+
+.portal-course-footer {
+  padding: 14px 18px;
+  background: #fafafa;
+  border-top: 1px solid #edf2f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Payment Gateway Styling */
+.pay-tabs .nav-link {
+  color: #475569;
+  font-weight: 600;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pay-tabs .nav-link.active {
+  background: #0b3b60;
+  color: #fff;
+  border-color: #0b3b60;
+}
+
+.qr-box {
+  background: #fff;
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+.success-badge-icon {
+  width: 70px;
+  height: 70px;
+  background: #10b981;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  margin: 0 auto 16px;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.35);
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.receipt-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: left;
+}
